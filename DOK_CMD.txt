@@ -1,0 +1,41 @@
+1)local file send to github -->> 
+           A)Config github on local machine:
+                            git config --global user.name 
+                            git config --global user.email
+                            git config --global core.editor Vim
+
+            B)Push files on github:
+			   
+                      git add .
+                      git commit -m"xyz"
+                      git push
+            C)clone files on local machine
+		      git clone --pasteURLlink--
+                      git add .
+                      git commit -m"xyz"
+                      git push           
+2) Config PUtty:
+	    1)open putty
+            2)copy IP address
+	    3)auto logging - ubuntu
+	    4)Auth-
+                 a.credentials-->upload .ppk file
+		 b.open
+3)on AWS account + Putty:
+            1)sudo apt update
+	    2) git -v
+            3) git clone paste URL link(repository location link) 
+            4) cd sittfstore(go inside folder)
+            5)docker -v
+            6) sudo apt istall docker.io
+            7)install
+            8)docker -v
+            9)ps --to check docker running or not(to check foregroung)
+           10)sudo systemctl --type=service --state=running
+           11)sudo docker ps
+           12)sudo docker images
+           13)sudo docker build -t vijaysales  .
+           14)sudo docker run -d -p 8000:8000 vijaysales
+           15)sudo docker ps + sudo docker 
+           16)sudo service docker stop
+	
